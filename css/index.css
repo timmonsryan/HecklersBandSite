@@ -1,0 +1,331 @@
+#headingWrap{
+	background: -webkit-linear-gradient(#C77070, #FFB9B9); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#C77070, #FFB9B9); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#C77070, #FFB9B9); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#C77070, #FFB9B9); /* Standard syntax */
+	width: 100%;
+	margin: 0;
+}
+
+#headingArea {
+	min-width: 200px;
+	width: 70%;
+	margin: 0 auto;
+	padding: 2px 0;
+}
+
+body {
+	margin: 0;
+	background-image: url("../images/Background.png");
+}
+
+.content {
+	min-width: 200px;
+	width: 70%;
+	margin: 0 auto;
+	background-color: white;
+	padding-top: 10px;
+	height: 100%;
+}
+
+img {
+	margin: 10px auto;
+}
+
+h1, h3, #navList a.pageLink {
+	margin: 0;
+	font-family: 'Poiret One', cursive;
+	color: white;
+	text-decoration: none;
+}
+
+#navList a.pageLink {
+	font-size: 125%;
+}
+
+h3 {
+	padding-left: 5px;
+}
+
+#logoArea {
+	width: 40%;
+	margin: 0;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+#navArea {
+	width: 55%;
+	margin: 0;
+	float: right;
+	display: inline-block;
+	margin-top: 18px;
+}
+
+#navList li {
+	display: inline-block;
+	float: right;
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+#navList ul {
+	float: right;
+	margin-bottom: 0;
+}
+
+#navList a:hover {
+	color: #4D94FF;
+}
+
+/* Bio */
+
+#bioContent p, #connectContent p, #showsContent p,  #musicContent p {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 200%;
+	margin: 10px;
+}
+
+#bioContent p {
+	margin: 30px;
+	font-size: 24px;
+}
+
+#bioContent h4, #connectContent h4, #showsContent h4, #musicContent h4 {
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 300%;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+
+#showsContent table {
+	margin: 0 auto;
+	font-size: 30px;
+	font-family: 'Poiret One', cursive;
+	border-collapse: separate;
+}
+
+#showsContent td {
+	padding: 7px;
+	text-align: center;
+}
+
+h4, img {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+/* Index */
+
+#albumIntro {
+	text-align: center;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 175%;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+/*#albumTitle {
+	text-align: center;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 175%;
+	font-weight: bold;
+}*/
+
+#albumArt {
+	max-width: 640px;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+#orderMessage {
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 300%;
+	margin-bottom: 10px;
+}
+
+/* Store Icons */
+
+.storeIcon {
+	height: auto;
+	width: 64px;
+	display: block;
+	float: left;
+	margin: 0 20px;
+}
+
+#storeIcons {
+	width: auto;
+	margin: 0 auto 10px;
+	text-align: center;
+}
+
+#storeIcons a {
+	display: inline-block;
+}
+
+#copyrightMessage {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	width: auto;
+	margin: 10px auto 50px;
+}
+
+#iframeWrapper {
+	width: 100%;
+	max-width: 560px;
+	overflow: hidden;
+	margin: 0 auto 30px;
+}
+
+#player {
+	margin: 0 auto;	
+}
+
+#bandcampWrapper {
+	width: 100%;
+	max-width: 560px;
+	overflow: hidden;
+	border-radius: 45px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#youtube {
+	width: 100%;
+	max-width: 560px;
+	margin: 0 auto;
+	display: block;
+	height: 315px;
+	overflow: hidden;
+}
+
+#bandPic {
+	border: solid 1px #3382D6;
+	border-radius: 45px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+}
+
+#connectLinkWrapper {
+	width: auto;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+#connectLinkWrapper a {
+	color: blue;
+	text-decoration: none;
+	float: left;
+}
+
+#facebookText {
+	margin-top: 25px;
+	color: #C77070;
+}
+
+#emailText {
+	margin-top: 15px;
+	color: #C77070;
+}
+
+#twitterText {
+	margin-top: 20px;
+	color: #C77070;	
+}
+
+
+#bandCampWrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#homePageBandcamp {
+	max-width: 658px;
+	margin: 0 auto;
+}
+
+#connectContent {
+	text-align: center;
+}
+
+#connectContent p {
+	font-size: 32px;
+}
+
+/* Music */
+
+.albumContainer {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 10px 15px;
+}
+
+.subsectionTitle {
+	font-size: 30px;
+	padding-left: 15px;
+	font-family: 'Poiret One', cursive;
+	margin: 0 5px;
+}
+
+.albumArtPreview {
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+}
+
+.albumText {
+	text-align: center;
+	width: 100%;
+	background-color: #FF6C6C;
+	color: white;
+	position: absolute;
+	z-index: 1;
+	bottom: 30px;
+	opacity: 0.8;
+}
+
+hr {
+	color: #FF6C6C;
+	border-color: #FF6C6C;
+	background-color: #FF6C6C;
+	margin: 0 5px 10px;
+}
+
+a.activePage {
+	text-decoration: underline;
+	font-size: 125%;	
+	font-family: 'Poiret One', cursive;
+	color: white;
+}
+
+.content { 
+/*  background: url(../images/Parchment.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-color: #FFFFD1;
+  min-height: 100vh;
+}
+
+body {
+	min-height: 100vh;
+}
+
+html {
+	height: auto;
+	min-height: 100%;
+}
+
+#logoArea a {
+	text-decoration: none;	
+}
